@@ -5,6 +5,12 @@ logs for "13Koenige-Metrovania", sorted chronologically by date.
 
 [05.07.2026]
 ------------------------------------------------------------------------------
+World Architecture: Implemented the hierarchical world loading system.
+New ID Registry: Registered the range Id.4000 to Id.4013:
+	Id.4000.map_root_tree: Created as the main collector for all game worlds.
+	Id.4001 - Id.4012: Established anchors for all 12 monthly seasonal maps.
+	Id.4013.map_final: Established the anchor for the permanent 13th endgame map.
+Documentation: Updated Id.0400.central_id_catalog.gd with descriptions and history markers for the complete map hierarchy.
 UI Architecture: Defined the structural requirements for the upcoming Metroidvania interface modules within the central catalog.
 New ID Registry: Registered unique IDs for the planned expansion of the UI system:
 	Id.5002.main_start_menu: Main entry and landing screen.

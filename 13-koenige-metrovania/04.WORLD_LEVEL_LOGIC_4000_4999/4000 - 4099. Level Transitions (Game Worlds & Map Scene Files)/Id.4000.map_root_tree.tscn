@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://dvkhk2sp5y0e7"]
+
+[ext_resource type="PackedScene" uid="uid://dd1ncutexq2tl" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4003.map_march.tscn" id="1_031po"]
+[ext_resource type="PackedScene" uid="uid://dw60iboa7r8yb" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4001.map_january.tscn" id="1_68qew"]
+[ext_resource type="PackedScene" uid="uid://b5r61in02u8fi" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4002.map_february.tscn" id="1_s5pua"]
+[ext_resource type="PackedScene" uid="uid://b5bvjvn73n6tg" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4004.map_april.tscn" id="4_a1sk8"]
+[ext_resource type="PackedScene" uid="uid://bnmuomx3w4j74" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4005.map_may.tscn" id="5_scx8o"]
+[ext_resource type="PackedScene" uid="uid://4k80s6t2t5r6" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4006.map_june.tscn" id="6_fsetn"]
+[ext_resource type="PackedScene" uid="uid://cgn8q7byafako" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4007.map_july.tscn" id="7_tf6jc"]
+[ext_resource type="PackedScene" uid="uid://b5o1plamfptn2" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4008.map_august.tscn" id="8_xg44p"]
+[ext_resource type="PackedScene" uid="uid://cos17lnyr6a0y" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4009.map_september.tscn" id="9_lqxc0"]
+[ext_resource type="PackedScene" uid="uid://cjbcprit1cryt" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4010.map_october.tscn" id="10_drbrt"]
+[ext_resource type="PackedScene" uid="uid://ibbr71ktpykb" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4011.map_november.tscn" id="11_h0k4x"]
+[ext_resource type="PackedScene" uid="uid://drj0p8yui55bt" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4012.map_december.tscn" id="12_0pxcd"]
+[ext_resource type="PackedScene" uid="uid://c8rku3ckvdbw6" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4013.map_final.tscn" id="13_udokx"]
+
+[node name="Map_root_tree" type="Node2D" unique_id=662368829]
+
+[node name="Map_january" parent="." unique_id=69310326 instance=ExtResource("1_68qew")]
+
+[node name="Map_february" parent="." unique_id=1867345336 instance=ExtResource("1_s5pua")]
+
+[node name="Map_march" parent="." unique_id=1281398459 instance=ExtResource("1_031po")]
+
+[node name="Map_april" parent="." unique_id=41309997 instance=ExtResource("4_a1sk8")]
+
+[node name="Map_may" parent="." unique_id=572058519 instance=ExtResource("5_scx8o")]
+
+[node name="Map_june" parent="." unique_id=1810672662 instance=ExtResource("6_fsetn")]
+
+[node name="Map_july" parent="." unique_id=1453610354 instance=ExtResource("7_tf6jc")]
+
+[node name="Map_august" parent="." unique_id=955876561 instance=ExtResource("8_xg44p")]
+
+[node name="Map_september" parent="." unique_id=867095206 instance=ExtResource("9_lqxc0")]
+
+[node name="Map_october" parent="." unique_id=998222933 instance=ExtResource("10_drbrt")]
+
+[node name="Map_november" parent="." unique_id=1480561158 instance=ExtResource("11_h0k4x")]
+
+[node name="Map_december" parent="." unique_id=329854139 instance=ExtResource("12_0pxcd")]
+
+[node name="Map_final" parent="." unique_id=745125304 instance=ExtResource("13_udokx")]

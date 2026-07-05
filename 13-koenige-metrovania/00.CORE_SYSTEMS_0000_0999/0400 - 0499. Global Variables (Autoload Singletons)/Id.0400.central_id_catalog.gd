@@ -153,7 +153,92 @@ const COMBAT_PHYSICS_3000_3999 = {
 	"3900 - 3999: Combat Collision Boxes (Hitboxes, Hurtboxes & CollisionShapes)": {}
 }
 const WORLD_LEVEL_LOGIC_4000_4999 = {
-	"4000 - 4099: Level Transitions (Game Worlds & Map Scene Files)": {},
+	"4000 - 4099: Level Transitions (Game Worlds & Map Scene Files)": {
+		"Id.4000.map_root_tree": {
+			"INFO": "The central structural node for the world system, serving as a container for all seasonal and final game maps.",
+			"HISTORY": [
+				"05.07.2026 - Initialized the map root tree to follow the project's global naming convention."
+				]
+			},
+		"Id.4001.map_january": {
+			"INFO": "Seasonal Metroidvania world for January.",
+			"HISTORY": [
+				"05.07.2026 - Registered January world."
+				]
+			},
+		"Id.4002.map_february": {
+			"INFO": "Seasonal Metroidvania world for February.",
+			"HISTORY": [
+				"05.07.2026 - Registered February world."
+				]
+			},
+		"Id.4003.map_march": {
+			"INFO": "Seasonal Metroidvania world for March.",
+			"HISTORY": [
+				"05.07.2026 - Registered March world."
+				]
+			},
+		"Id.4004.map_april": {
+			"INFO": "Seasonal Metroidvania world for April.",
+			"HISTORY": [
+				"05.07.2026 - Registered April world."
+				]
+			},
+		"Id.4005.map_may": {
+			"INFO": "Seasonal Metroidvania world for May.",
+			"HISTORY": [
+				"05.07.2026 - Registered May world."
+				]
+			},
+		"Id.4006.map_june": {
+			"INFO": "Seasonal Metroidvania world for June.",
+			"HISTORY": [
+				"05.07.2026 - Registered June world."
+				]
+			},
+		"Id.4007.map_july": {
+			"INFO": "Seasonal Metroidvania world for July.",
+			"HISTORY": [
+				"05.07.2026 - Registered July world."
+				]
+			},
+		"Id.4008.map_august": {
+			"INFO": "Seasonal Metroidvania world for August.",
+			"HISTORY": [
+				"05.07.2026 - Registered August world."
+				]
+			},
+		"Id.4009.map_september": {
+			"INFO": "Seasonal Metroidvania world for September.",
+			"HISTORY": [
+				"05.07.2026 - Registered September world."
+				]
+			},
+		"Id.4010.map_october": {
+			"INFO": "Seasonal Metroidvania world for October.",
+			"HISTORY": [
+				"05.07.2026 - Registered October world."
+				]
+			},
+		"Id.4011.map_november": {
+			"INFO": "Seasonal Metroidvania world for November.",
+			"HISTORY": [
+				"05.07.2026 - Registered November world."
+				]
+			},
+		"Id.4012.map_december": {
+			"INFO": "Seasonal Metroidvania world for December.",
+			"HISTORY": [
+				"05.07.2026 - Registered December world."
+				]
+			},
+		"Id.4013.map_final": {
+			"INFO": "The permanent 13th map. A static world containing the final endgame content and climax.",
+			"HISTORY": [
+				"05.07.2026 - Registered the permanent final world scene."
+				]
+			}
+		},
 	"4100 - 4199: Procedural Generation (TileMap, GridMap & Voxel Nodes)": {},
 	"4200 - 4299: Environment Cycles (Day-Night Cycle & Sky Shaders)": {},
 	"4300 - 4399: Interactive Environment (Moving Platforms & Elevators)": {},

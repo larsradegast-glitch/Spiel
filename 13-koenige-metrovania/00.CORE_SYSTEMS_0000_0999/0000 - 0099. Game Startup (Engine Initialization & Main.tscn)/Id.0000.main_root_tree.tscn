@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://b6c0d2p7yg1bw"]
 
 [ext_resource type="PackedScene" uid="uid://2nmjky1dhldk" path="res://05.UI_MENUS_CONTROL_5000_5999/5000 - 5099. Front-End Menus (Main Menu, Options & Audio-Video Settings)/Id.5000.main_ui_tree.tscn" id="1_5we40"]
+[ext_resource type="PackedScene" uid="uid://dvkhk2sp5y0e7" path="res://04.WORLD_LEVEL_LOGIC_4000_4999/4000 - 4099. Level Transitions (Game Worlds & Map Scene Files)/Id.4000.map_root_tree.tscn" id="1_pbhvi"]
 
 [node name="Main_root_tree" type="Node" unique_id=2120773340]
 
+[node name="Map_root_tree" parent="." unique_id=662368829 instance=ExtResource("1_pbhvi")]
+
 [node name="Main_ui_tree" parent="." unique_id=545809432 instance=ExtResource("1_5we40")]
-offset_right = 1920.0
-offset_bottom = 1080.0
