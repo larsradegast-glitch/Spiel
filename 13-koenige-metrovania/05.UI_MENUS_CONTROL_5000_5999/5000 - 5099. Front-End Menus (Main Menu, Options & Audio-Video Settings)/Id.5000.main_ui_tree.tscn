@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://2nmjky1dhldk"]
+
+[ext_resource type="PackedScene" uid="uid://ctjpciwcg8o8x" path="res://05.UI_MENUS_CONTROL_5000_5999/5000 - 5099. Front-End Menus (Main Menu, Options & Audio-Video Settings)/Id.5001.game_settings_menu.tscn" id="1_egg0b"]
+[ext_resource type="PackedScene" uid="uid://d120agaa72vrb" path="res://05.UI_MENUS_CONTROL_5000_5999/5400 - 5499. Endscreens (Game Over, Victory Screens & End Credits)/Id.5400.endscreen_overlay.tscn" id="1_m35xw"]
+[ext_resource type="PackedScene" uid="uid://yltwr3i12072" path="res://05.UI_MENUS_CONTROL_5000_5999/5100 - 5199. In-Game HUD (Progress Bars & Crosshairs)/Id.5100.in_game_hud.tscn" id="1_pjr1p"]
+[ext_resource type="PackedScene" uid="uid://bpsaagcet0pii" path="res://05.UI_MENUS_CONTROL_5000_5999/5300 - 5399. Dialogue UI (Subtitle Labels & .theme Asset Customization)/Id.5300.dialogue_box_ui.tscn" id="1_w21mv"]
+[ext_resource type="PackedScene" uid="uid://ul0e0ddahnki" path="res://05.UI_MENUS_CONTROL_5000_5999/5000 - 5099. Front-End Menus (Main Menu, Options & Audio-Video Settings)/Id.5002.main_start_menu.tscn" id="2_yg4sg"]
+[ext_resource type="PackedScene" uid="uid://b6nyt3k6c8nh6" path="res://05.UI_MENUS_CONTROL_5000_5999/5000 - 5099. Front-End Menus (Main Menu, Options & Audio-Video Settings)/Id.5003.pause_menu.tscn" id="3_ctr6w"]
+[ext_resource type="PackedScene" uid="uid://bgikyf4gxewsc" path="res://05.UI_MENUS_CONTROL_5000_5999/5200 - 5299. Inventory UI (Item Display Container Grids & Icon Atlases)/Id.5200.inventory_menu_ui.tscn" id="5_fyuad"]
+
+[node name="Main_ui_tree" type="CanvasLayer" unique_id=1216702291]
+
+[node name="Endscreen_overlay" parent="." unique_id=1668195835 instance=ExtResource("1_m35xw")]
+
+[node name="Dialogue_box_ui" parent="." unique_id=1934031242 instance=ExtResource("1_w21mv")]
+
+[node name="In_game_hud" parent="." unique_id=1953753626 instance=ExtResource("1_pjr1p")]
+
+[node name="Game_settings_menu" parent="." unique_id=572505006 instance=ExtResource("1_egg0b")]
+
+[node name="Main_start_menu" parent="." unique_id=8772178 instance=ExtResource("2_yg4sg")]
+
+[node name="Pause_menu" parent="." unique_id=82614239 instance=ExtResource("3_ctr6w")]
+
+[node name="Inventory_menu_ui" parent="." unique_id=61599812 instance=ExtResource("5_fyuad")]
