@@ -87,7 +87,14 @@ const CORE_SYSTEMS_0000_0999 = {
 				]
 			}
 		},
-	"0100 - 0199: Save & Load (Data Serialization & User Profiles)": {},
+	"0100 - 0199: Save & Load (Data Serialization & User Profiles)": {
+		"Id.0100.game_state_manager": {
+			"INFO": "The central brain of the game. Manages seasonal map switching, progression flags, and coordinates saving/loading data.",
+			"HISTORY": [
+				"05.07.2026 - Initialized to manage the 13 worlds architecture."
+				]
+			}
+		},
 	"0200 - 0299: Pause Systems (Engine Time Scaling & Process Modes)": {},
 	"0300 - 0399: Scene Switching (SceneTree Management & Loading Screens)": {},
 	"0400 - 0499: Global Variables (Autoload Singletons)": {
