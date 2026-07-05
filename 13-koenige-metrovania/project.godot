@@ -17,7 +17,6 @@ config/features=PackedStringArray("4.7", "Mobile")
 [autoload]
 
 Id_0402_game_events="*uid://utjnjarka8ih"
-Id_0100_game_state_manager="*uid://bcsmulsvcwseq"
 
 [display]
 
