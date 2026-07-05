@@ -5,16 +5,6 @@ logs for "13Koenige-Metrovania", sorted chronologically by date.
 
 [05.07.2026]
 ------------------------------------------------------------------------------
-Core Systems: Implemented the central Game State Manager to act as the "brain" of the project.
-New Assets:
-	Id.0100.game_state_manager.gd: Created the core logic for seasonal map switching and progression tracking.
-	Autoload Registration: Registered Id_0100_game_state_manager as a global Singleton in project.godot for universal access.
-System Features:
-	Seasonal Orchestration: Added logic to automatically determine and trigger map loads based on system time (Months 1-12) or endgame status (Id.4013).
-	Data Persistence: Implemented a 'progression_flags' dictionary to track states (like opened doors or defeated bosses) for all 13 individual maps and global progress.
-	Save/Load Skeleton: Integrated signals and function stubs for future data serialization.
-Documentation:
-	Updated Id.0400.central_id_catalog.gd to include the 0100 category entry with "INFO" and "HISTORY" markers.
 World Architecture: Implemented the hierarchical world loading system.
 New ID Registry: Registered the range Id.4000 to Id.4013:
 	Id.4000.map_root_tree: Created as the main collector for all game worlds.
